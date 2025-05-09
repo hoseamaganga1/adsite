@@ -1,3 +1,5 @@
+var javascript = document.getElementById("javascript")
+javascript.style.display = "none"
 var width = 10
 var root_div = document.getElementById("root") // 
 window.onload = screen
@@ -34,7 +36,8 @@ var menu = cust_div("menu")
 header.appendChild(logo)
 header.appendChild(menu)
 var link4 = document.createElement("a")
-link4.href = "#"
+link4.href = "https://www.kqzyfj.com/click-101427914-17035547"
+link4.target = "_top"
 link4.innerHTML = "HM"
 logo.appendChild(link4)
 // logo.innerHTML = "HM LOGO"
@@ -45,7 +48,8 @@ menu.appendChild(home)
 menu.appendChild(contact)
 menu.appendChild(about)
 var link5 = document.createElement("a")
-link5.href = "#"
+link5.href = "https://www.kqzyfj.com/click-101427914-17035547"
+link5.target = "_top"
 link5.innerHTML = "HOME"
 home.appendChild(link5)
 var link6 = document.createElement("a")
@@ -57,24 +61,31 @@ link7.href = "#"
 link7.innerHTML = "ABOUT"
 about.appendChild(link7)
 var img1 = cust_div("img1")
+var link9 = document.createElement("a")
+link9.href = "https://www.kqzyfj.com/click-101427914-17035547"
+link9.target = "_top"
 var img01 = cust_img("img01", "./img/Amwager-Sign-up-Promo.jpg","img01")
+link9.appendChild(img01)
 var txt1 = cust_div("txt1")
-img1.appendChild(img01)
+img1.appendChild(link9)
 main.appendChild(img1)
 var pt1 = cust_div("pt1")
 var link = document.createElement("a")
-link.href = "https://www.kqzyfj.com/click-101427914-15734478"
+link.href = "https://www.kqzyfj.com/click-101427914-17035547"
+link.target = "_top"
 link.innerHTML = "After profits?"
 pt1.appendChild(link)
 var link2 = document.createElement("a")
-link2.href = "https://www.kqzyfj.com/click-101427914-15734478"
+link2.href = "https://www.kqzyfj.com/click-101427914-17035547"
+link2.target = "_top"
 link2.innerHTML = "New Customer Offer: $150 Deposit Match"
 pt1.appendChild(document.createElement("hr"))
 pt1.appendChild(document.createElement("hr"))
 pt1.appendChild(link2)
 pt1.appendChild(document.createElement("hr"))
 var link3 = document.createElement("a")
-link3.href = "https://www.kqzyfj.com/click-101427914-15734478"
+link3.href = "https://www.kqzyfj.com/click-101427914-17035547"
+link3.target = "_top"
 link3.innerHTML = "☝️"
 link3.className = "emoji"
 pt1.appendChild(link3)
@@ -83,5 +94,9 @@ main.appendChild(txt1)
 var li_img = cust_img("li_img", "./img/Asset 2.svg", "li_img")
 var link8 = document.createElement("a")
 link8.href = "https://www.linkedin.com/in/hosea-maganga-5b8ab41b7"
+link8.target = "_top"
 link8.appendChild(li_img)
+var div_amwager = cust_div("div_amwager")
+div_amwager.innerHTML = "AmWest Entertainment LLC is a spectacular betting company here for you. Enjoy unlimited bonuses."
+footer.appendChild(div_amwager)
 footer.appendChild(link8)

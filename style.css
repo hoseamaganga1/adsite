@@ -11,6 +11,9 @@
     --xl : 1200px;
     --xxl : 1400px
 }
+#javascript{
+    font-size:4vw;
+}
 a{
     text-decoration: none;
     color: var(--color-1);
@@ -58,9 +61,12 @@ body{
     flex-direction: row;
 }
 #img1{
-    width: 60%;
+    width: 70%;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
 }
 .img01{
     background-size: contain;
@@ -68,11 +74,11 @@ body{
     border-radius: 25px;
 }
 #txt1{
-    width: 40%;
+    width: 30%;
 }
 #pt1>a{
     color: chocolate;
-    font-size: 3.5vw;
+    font-size: 2.5vw;
     /* border: 3px solid var(--color-3); */
     margin: 0px 10%;
     height: fit-content;
@@ -86,13 +92,17 @@ body{
     height: 100%;
 }
 #pt1>a.emoji{
-    font-size: 10vw;
+    font-size: 5vw;
 }
 #footer{
     height: 10vh;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
+}
+#div_amwager{
+    padding: 20px;
+    font-size: 2vw;
 }
 #footer>a{
     width: 90px;
@@ -105,7 +115,7 @@ body{
     border-radius: 100px;
 }
 /* mobile view */
-@media (max-width : 768px) {
+@media (max-width : 920px) {
     #menu{
         display: none;
     }

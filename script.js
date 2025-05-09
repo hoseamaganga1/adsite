@@ -97,6 +97,6 @@ link8.href = "https://www.linkedin.com/in/hosea-maganga-5b8ab41b7"
 link8.target = "_top"
 link8.appendChild(li_img)
 var div_amwager = cust_div("div_amwager")
-div_amwager.innerHTML = "AmWest Entertainment LLC is a spectacular betting company here for you. Enjoy unlimited bonuses."
+div_amwager.innerHTML = "AmWager Entertainment LLC is a spectacular betting company here for you. Enjoy unlimited bonuses."
 footer.appendChild(div_amwager)
 footer.appendChild(link8)
